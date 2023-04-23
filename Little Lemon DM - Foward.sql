@@ -102,6 +102,7 @@ CREATE TABLE IF NOT EXISTS `littlelemondb`.`orders` (
   `OrderID` INT NOT NULL AUTO_INCREMENT,
   `OrderDate` DATE NOT NULL,
   `TotalCost` DECIMAL(10,0) NOT NULL,
+  `Quantity` INT NOT NULL,
   `MenuID` INT NOT NULL,
   `BookingID` INT NOT NULL,
   `CustomerID` INT NOT NULL,
